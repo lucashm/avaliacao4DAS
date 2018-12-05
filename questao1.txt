@@ -1,0 +1,22 @@
+a) 
+
+Componente
+    Componentes podem ser funções, classes, aplicações ou subsistemas que são construídos de forma genérica de modo que se tornem artefatos autocontidos, com facilidade em identificar funções específicas e interfaces claras dentro de si, além de documentações apropriadas e uma condição de reuso bem definida [SAM97].
+
+Modelo de Componente
+    O modelo de componente é uma "casca" para se criar componentes, onde se é definido o tipo de componente, a forma que esse componente vai interagir, seus recursos utilizados, entre outras definições que devem ser seguidas para se criar um bom componente.
+
+Framework de componente
+    O framework de componente pode ser considerado a base sobre qual essa "casca" do modelo de componentes se insere. Desse modo, framework e modelo de componentes são conceitos fortemente relacionados. Todas as definições de um modelo devem ser suportadas por um framework, de modo que a criação desse componente seja possível.
+
+b)
+
+Componente
+    No desenvolvimento baseado em componentes (DBC), de acordo com [BRO97] e [SZY99], os componentes são uma abstração seguinte à funções, módulos e classes. Ambos se preocupam com a componentização de código, de modo que os mesmos sejam reusáveis ou providos para o usuário. Já para [SAM97], qualquer artefato pode ser componentizado, de modo que isso possa ocorrer em todas as fases do processo de desenvolvimento de software.
+
+Modelo de componente
+    No DBC, os modelos de componente precisam, além de proporcionar uma definição bem sólida sobre como o componente deve ser, pensar em como esses componentes vão se relacionar, de modo que essa interação ocorra sem nenhum atrito e da melhor maneiro possível.
+
+Framework de componente
+    A função principal do framework de componente no DBC é de facilitar sua produção. Mas além disso, garantir que os componentes criados respeitem as definições dos mesmos, além de freezar as interrelações que os modelos de componente definem.
+

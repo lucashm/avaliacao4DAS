@@ -1,0 +1,8 @@
+Os stubs são classes que funcionam como um proxy para o objeto remoto. Desse modo, o stub fica responsável por enviar a chamada ao método para o objeto remoto.
+Como eles são responsáveis por uma série de ações, como iniciar a conexão com a máquina virtual, escrever e transmitir parâmetros para a mesma, esperar e ler os resultados, um stub pode ser considerado um dos componentes definidos por Spagnoli e Becker.
+
+O Skeleton pode ser considerado um complemento ao stub, já que ele é responsável por enviar a chamada ao objeto remoto. Suas principais funções incluem ler os parametros enviados pelo stub, invocar o método no objeto remoto e escrever e transmitir o resultado ao objeto que executou a chamada. Desse modo, também pode ser considerado um componente.
+
+O Registro funciona como o "framework de componente", já que o mesmo proporciona uma interface que garanta a comunicação adequada entre skeletons e stubs.
+
+Por fim, a Serialização e Deserialização funciona como um modelo de componentes, visto que esses processos visam armazenar/recuperadas objetos de uma forma bem definida. Outro detalhe é que, ao desarmazenar um objeto, todos os seus correlacionados também devem ser desarmazenados, de modo que se mantenha sua conexão, afirmando assim o modelo de componentes definido.
